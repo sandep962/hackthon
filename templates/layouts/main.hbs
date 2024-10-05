@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/edu.css">
+</head>
+<body>
+    <div style="margin-top: 10px; margin-bottom: 10px;">
+        <marquee direction="left" height="60px" style="font-size: 50px; color: brown; font-family: 'Times New Roman', Times, serif;">
+            Connecting Students to the Professional World
+        </marquee>
+    </div>
+    
+    {{> navbar}}
+
+    <div style="background-color: #D8FFD8;">
+        {{{body}}} 
+    </div>
+    
+    {{> footer}}
+
+    <script src="/edu.js"></script>
+</body>
+</html>

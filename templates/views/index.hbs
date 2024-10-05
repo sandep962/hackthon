@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div style="background-color: #D8FFD8;">
+        <div class="specializations">
+            <h2 style="text-align: center; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                Select Your Specialization
+            </h2>
+            <div class="butto-n">
+                <button type="button" class="butto" onclick="window.location.href='/software'">Software</button>
+                <button type="button" class="butto" onclick="window.location.href='/hardware'">Hardware</button>
+            </div>
+        </div>
+        <hr>
+        <div class="suggest">
+            <h1 style="margin-left: 350px;">
+                <a href="https://www.w3schools.com/where_to_start.asp" target="_self">Not Sure Where To Begin?</a>
+            </h1>
+            <img src="thinking.jpg" alt="Description of image" width="300" height="200" position="right">
+        </div>
+    </div>
+
+    <section class="container">
+        <p>EduBridge is your portal to bridging the gap between academics and the professional world. Here, you'll find
+            resources, internships, and mentorship programs that align with your career aspirations. Our goal is to
+            prepare you for the industry's challenges by equipping you with the right skills and opportunities.</p>
+        <p>EduBridge is your portal to bridging the gap between academics and the professional world. Here, you'll find
+            resources, internships, and mentorship programs that align with your career aspirations. Our goal is to
+            prepare you for the industry's challenges by equipping you with the right skills and opportunities.</p>
+        <p>EduBridge is your portal to bridging the gap between academics and the professional world. Here, you'll find
+            resources, internships, and mentorship programs that align with your career aspirations. Our goal is to
+            prepare you for the industry's challenges by equipping you with the right skills and opportunities.</p>
+    </section>
+
+    {{> footer}} <!-- Include the footer -->
+
+    <script src="edu.js"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "-9s9FHDdp4jwxV2iu8112",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="-9s9FHDdp4jwxV2iu8112" domain="www.chatbase.co" defer>
+    </script>
+
+</html>

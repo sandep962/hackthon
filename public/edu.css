@@ -1,0 +1,235 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header nav button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .header nav button {
+        flex: 1 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.specializations {
+    padding: 50px;
+    background-color: #D8FFD8;
+}
+
+.butto {
+    background-color: rgb(147, 112, 219);
+    height: 40px;
+    width: 155px;
+    margin-right: 50px;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    line-height: 0.1;
+    vertical-align: middle;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.butto-n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(80, 243, 74);
+    color: rgb(0, 0, 0);
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer a {
+    color: #090909;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+}
+
+.suggest {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+}
+
+.suggest p {
+    flex: 2;
+    text-align: center;
+}
+
+.suggest img {
+    width: 350px;
+    height: 250px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    float: right;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-bottom: 60px;
+}
+
+.container p {
+    flex: 1;
+    text-align: justify;
+    color: #666;
+    margin: 0 10px;
+    font-size: 1.1em;
+    padding: 10px;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+    margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.specialization-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.jobs {
+    padding: 2em;
+}
+
+.job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #666;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.branch {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
