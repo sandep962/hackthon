@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true // Ensure this field is required
+        required: true 
     },
     username: {
         type: String,
@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
-        unique: true // You may want to enforce unique email addresses
+        unique: true 
     },
     password: {
         type: String,
