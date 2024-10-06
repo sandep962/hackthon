@@ -2,6 +2,76 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('com.jpg');
+    background-repeat:repeat;
+    background-position: static;
+    background-position-x: right;
+    background-position-y: center;
+  }
+
+  .container1 {
+    width: 70%;
+    
+    padding: 20px;
+    background-color: #3bda26;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .branch {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: fadeIn 2s;
+  }
+
+  .branch a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .branch a:hover {
+    text-decoration: underline;
+  }
+
+  .branch p {
+    color: #666;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -11,6 +81,46 @@
                 <li><a href="/job/{{this.id}}">{{this.title}}</a></li>
             {{/each}}
         </ul>
-    </div>
+    </div><hr>
+  <div class="container1">
+  <h1>Software Feild</h1>
+  <div class="branch">
+    <h2><a href="#frontend">Frontend Development</a></h2>
+    <p>Frontend developers create the user interface of web and mobile applications. They use technologies like HTML, CSS, and JavaScript. Their work ensures that applications are visually appealing and function well. They focus on user experience and design. Proficiency in frameworks like React and Angular is often required.</p>
+    <p>
+        <img src="fe.jpg" Description="machine" style="width: 150px; height: 100px;"><img src="fe1.jpg" description="machine" style="width: 150px; height: 100px;margin-left: 100px;"></p>
+</div>
+  
+  <div class="branch">
+    <h2><a href="#backend">Backend Development</a></h2>
+    <p>Backend developers handle the server side of applications. They work with databases, servers, and APIs. Their role is crucial for the functionality and efficiency of applications. They use languages like Python, Java, and Node.js. Ensuring data integrity and security is a big part of their job.</p>
+    <p>
+        <img src="be.jpg" Description="machine" style="width: 150px; height: 100px;"><img src="be1.jpg" description="machine" style="width: 150px; height: 100px;margin-left: 100px;"></p>
+</div>
+  
+  <div class="branch">
+    <h2><a href="#fullstack">Full Stack Development</a></h2>
+    <p>Full stack developers are proficient in both frontend and backend development. They have a comprehensive understanding of web applications. This role requires knowledge of both client-side and server-side technologies. They often handle the entire development process. Versatility is their key strength.</p>
+    <p>
+        <img src="fs.jpg" Description="machine" style="width: 150px; height: 100px;"><img src="fs1.jpg" description="machine" style="width: 150px; height: 100px;margin-left: 100px;"></p>
+</div>
+  
+  <div class="branch">
+    <h2><a href="#devops">DevOps Engineering</a></h2>
+    <p>DevOps engineers streamline the development and operations processes. They use tools like Docker, Jenkins, and Kubernetes. Their goal is to shorten the development lifecycle. They focus on continuous integration and continuous deployment (CI/CD). Automation and monitoring are essential parts of their work.</p>
+    <p>
+        <img src="dv.jpg" Description="machine" style="width: 150px; height: 100px;"><img src="dv1.jpg" description="machine" style="width: 150px; height: 100px;margin-left: 100px;"></p>
+</div>
+  
+  <div class="branch">
+    <h2><a href="#data">Data Engineering</a></h2>
+    <p>Data engineers design and manage data pipelines. They ensure data is collected, stored, and processed efficiently. Their work is critical for data analytics and machine learning. They use tools like Hadoop, Spark, and SQL. Ensuring data quality and consistency is a major aspect of their job.</p>
+    <p>
+        <img src="data.jpg" Description="machine" style="width: 150px; height: 100px;"><img src="data1.jpg" description="machine" style="width: 150px; height: 100px;margin-left: 100px;"></p>
+</div>
+</div>
+<div class="footer">
+    <p>© 2024 CareerCraft. All rights reserved.</p>
+  </div>
 </body>
 </html>
